@@ -1,5 +1,7 @@
 #!/usr/bin/perl
+
 # To daje 428 / 404
+
 ( $K, $_, $P[7] ) = @ARGV;
 /(.)(\D)/, push @R, [ $`, $1, $P[$1][$`] = $2, $', $` * 4 ^ 56 * $1 ^ 5 ] for split ",";
 
@@ -7,7 +9,6 @@ map {
     map {
         ( $I, $O ) = ( $X, $Y, $M, $Q, $N, $L ) = @$_;
 
-        # XXX code like: '$i--if$i>0' you can use: '$i-=$i>0'
         $M = "R" if "S" eq $M && ++$L > 13;
 
         $N ^= $N << 13;
