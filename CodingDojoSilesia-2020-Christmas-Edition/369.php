@@ -1,0 +1,1 @@
+<?php [,$S,$V,$A]=$argv;foreach(explode(',',$A)as$n){$c=$s|1;for($s=preg_match('/(.#*)(.*)\.(.+)/',$n,$x);$g=$s,$s=1-2*(0>$v=Z>$n?$V*$c*sin($i*2*pi()/$S*round(55*2**($x[2]-strpos('H#A#G#FE#D#C',strrev($x[1]))/12-5/6)-2e-4,2)):$g=0),++$i<=$S/$x[3]||$s==$g;$D.=chr($v+128))$L++;$i=1;}echo base64_encode(RIFF.pack(IA8ISSIISSA4I,$L+44,WAVEfmt,16,1,1,$S,$S,1,8,data,$L).$D);

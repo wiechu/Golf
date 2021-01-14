@@ -1,0 +1,1 @@
+($S,$V,$_)=@ARGV;map{$c=$s||1;for($s=/(#*)(\d*)\./;$g=$s,$s=($v=Z lt$`?$g=0:$V*$c*sin$i*8*atan2(1,1)/$S*(.01*int 2750*2**($2+(1-index'#A#G#FE#D#C',$1.$`)/12)+.48))<0?-1:1,++$i<=$S/$'||$g==$s;push@D,$v+128){}$i=1}/[^,]+/g;open O,'|base64';print O RIFF.pack'IA8ISSIISSA4IC*',@D+44,WAVEfmt,16,1,1,$S,$S,1,8,data,@D+0,@D
